@@ -38,7 +38,10 @@ digraph T {
   }
 
   subgraph ortholinear {
-    planck -> preonic;
+    planck -> {
+      preonic,
+      pancake
+    };
   }
 
   subgraph {
