@@ -21,6 +21,7 @@ digraph T {
 
     ergodox -> {
       gergo,
+      iris,
       moonlander,
       redox
     };
