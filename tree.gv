@@ -42,6 +42,7 @@ digraph T {
 
     minidox -> {
       "5plit";
+      microdox;
     }
 
     sofle -> kimiko;
