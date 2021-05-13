@@ -3,17 +3,20 @@ digraph T {
     helix -> corne;
 
     corne -> {
+      "corneish zen",
+      fifi,
       kyria,
-      microdox,
       lily58,
-      "corneish zen";
+      microdox,
+      torn
     };
 
     lily58 -> sofle;
 
     kyria -> {
+        arch36,
         ferris,
-        arch36
+        fifi
     };
 
     ergodox -> {
@@ -25,10 +28,11 @@ digraph T {
     gergoplex -> ferris;
 
     ferris -> {
-      sweep,
       ahokore,
-      zaphod,
-      rollow
+      draculad,
+      rollow,
+      sweep,
+      zaphod
     };
 
     "5plit" -> "fissure1";
@@ -38,6 +42,7 @@ digraph T {
   }
 
   subgraph ortholinear {
+    plaid -> torn;
     planck -> {
       preonic,
       pancake
