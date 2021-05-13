@@ -21,7 +21,8 @@ digraph T {
 
     ergodox -> {
       gergo,
-      moonlander
+      moonlander,
+      redox
     };
 
     gergo -> gergoplex;
@@ -42,7 +43,10 @@ digraph T {
   }
 
   subgraph ortholinear {
-    plaid -> torn;
+    plaid -> {
+      discipline,
+      torn
+    };
     planck -> {
       preonic,
       pancake
