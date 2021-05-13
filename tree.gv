@@ -89,6 +89,7 @@ digraph T {
 
   subgraph alicefamily {
     alice -> {
+      arisu;
       ava;
       cornelius;
       maja;
