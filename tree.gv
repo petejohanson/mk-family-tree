@@ -89,7 +89,10 @@ digraph T {
 
   subgraph alicefamily {
     alice -> {
+      ava;
       cornelius;
+      maja;
+      prime_e;
     }
   }
 }
