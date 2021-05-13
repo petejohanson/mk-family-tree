@@ -4,6 +4,7 @@ digraph T {
 
     corne -> {
       "corneish zen";
+      cornelius;
       fifi;
       kyria;
       lily58;
@@ -74,6 +75,12 @@ digraph T {
     dactyl -> {
       "dactyl manuform";
       skeletyl;
+    }
+  }
+
+  subgraph alicefamily {
+    alice -> {
+      cornelius;
     }
   }
 }
