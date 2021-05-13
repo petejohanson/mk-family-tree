@@ -53,8 +53,8 @@ digraph T {
   subgraph unibody {
     reviung39 -> {
       ahokore;
+      reviung41;
     };
-    reviung41
   };
 
   subgraph ortholinear {
