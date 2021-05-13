@@ -44,6 +44,8 @@ digraph T {
       "5plit";
     }
 
+    sofle -> kimiko;
+
     "5plit" -> "fissure1";
     "For Science" -> "fissure1";
     fissure1 -> "fissure2+";
