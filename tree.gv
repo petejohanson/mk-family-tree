@@ -21,6 +21,7 @@ digraph T {
     };
 
     ergodox -> {
+      atreus;
       ergodash;
       gergo;
       iris;
