@@ -1,0 +1,30 @@
+name: Render
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/render.yml"
+      - "tree.gv"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Graphviz
+        uses: ts-graphviz/setup-graphviz@v1
+      - name: Render
+        run: |
+          make tree.png
+      - name: Copy to README image
+        run: cp renders/tree.png ./latest.png
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: Pete Johanson
+          author_email: peter@peterjohanson.com
+          message: 'Updated README image w/ latest tree'
+          add: 'latest.png'
