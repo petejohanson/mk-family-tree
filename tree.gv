@@ -1,0 +1,36 @@
+digraph T {
+  subgraph splits {
+    helix -> corne;
+    corne -> {
+      kyria,
+      microdox,
+      lily58,
+      "corneish zen";
+    };
+    lily58 -> sofle;
+    kyria -> {
+        ferris,
+        arch36
+    };
+    ergodox -> {
+      gergo,
+      moonlander
+    };
+    gergo -> gergoplex;
+    gergoplex -> ferris;
+    ferris -> {
+      sweep,
+      ahokore,
+      zaphod,
+      rollow
+    };
+    "5plit" -> "fissure1";
+    "For Science" -> "fissure1";
+    fissure1 -> "fissure2+";
+    jklp -> "fissure2+";
+  }
+
+  subgraph ortholinear {
+    planck -> preonic;
+  }
+}

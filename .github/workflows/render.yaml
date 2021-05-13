@@ -1,0 +1,29 @@
+name: Render
+
+on:
+  push:
+    paths:
+      - ".github/workflows/render.yml"
+      - "tree.gv"
+  pull_request:
+    paths:
+      - ".github/workflows/render.yml"
+      - "tree.gv"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Graphviz
+        uses: ts-graphviz/setup-graphviz@v1
+      - name: Render
+        run: |
+          make
+      - name: Archive renders
+        uses: actions/upload-artifact@v2
+        with:
+          name: renders
+          path: |
+            renders/*
