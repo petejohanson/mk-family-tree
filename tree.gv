@@ -14,6 +14,7 @@ digraph T {
     lily58 -> sofle;
 
     kyria -> {
+        ahokore,
         arch36,
         ferris,
         fifi
@@ -43,6 +44,13 @@ digraph T {
     fissure1 -> "fissure2+";
     jklp -> "fissure2+";
   }
+
+  subgraph unibody {
+    reviung39 -> {
+      ahokore
+    };
+    reviung41
+  };
 
   subgraph ortholinear {
     plaid -> {
