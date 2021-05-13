@@ -3,45 +3,45 @@ digraph T {
     helix -> corne;
 
     corne -> {
-      "corneish zen",
-      fifi,
-      kyria,
-      lily58,
-      microdox,
-      torn
+      "corneish zen";
+      fifi;
+      kyria;
+      lily58;
+      microdox;
+      torn;
     };
 
     lily58 -> sofle;
 
     kyria -> {
-        ahokore,
-        arch36,
-        ferris,
-        fifi
+        ahokore;
+        arch36;
+        ferris;
+        fifi;
     };
 
     ergodox -> {
-      ergodash,
-      gergo,
-      iris,
-      minidox,
-      moonlander,
-      redox
+      ergodash;
+      gergo;
+      iris;
+      minidox;
+      moonlander;
+      redox;
     };
 
     gergo -> gergoplex;
     gergoplex -> ferris;
 
     ferris -> {
-      ahokore,
-      draculad,
-      rollow,
-      sweep,
-      zaphod
+      ahokore;
+      draculad;
+      rollow;
+      sweep;
+      zaphod;
     };
 
     minidox -> {
-      "5plit"
+      "5plit";
     }
 
     "5plit" -> "fissure1";
@@ -52,26 +52,26 @@ digraph T {
 
   subgraph unibody {
     reviung39 -> {
-      ahokore
+      ahokore;
     };
     reviung41
   };
 
   subgraph ortholinear {
     plaid -> {
-      discipline,
-      torn
+      discipline;
+      torn;
     };
     planck -> {
-      preonic,
-      pancake
+      preonic;
+      pancake;
     };
   }
 
   subgraph {
     dactyl -> {
-      "dactyl manuform",
-      skeletyl
+      "dactyl manuform";
+      skeletyl;
     }
   }
 }
