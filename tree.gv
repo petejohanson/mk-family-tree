@@ -20,6 +20,8 @@ digraph T {
         fifi;
     };
 
+    "kinesis advantage" -> ergodox;
+
     ergodox -> {
       atreus;
       ergodash;
@@ -30,8 +32,16 @@ digraph T {
       redox;
     };
 
+    ergodash -> {
+      "ergodash-lp";
+      choc_ergo;
+    };
+
     gergo -> gergoplex;
-    gergoplex -> ferris;
+    gergoplex -> {
+      ferris;
+      choc_ergo;
+    };
 
     ferris -> {
       ahokore;
