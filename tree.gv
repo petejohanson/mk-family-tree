@@ -40,4 +40,11 @@ digraph T {
   subgraph ortholinear {
     planck -> preonic;
   }
+
+  subgraph {
+    dactyl -> {
+      "dactyl manuform",
+      skeletyl
+    }
+  }
 }
