@@ -1,4 +1,4 @@
-name: Render
+name: Update README Image in main
 
 on:
   push:
