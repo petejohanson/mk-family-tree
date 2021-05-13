@@ -43,9 +43,13 @@ digraph T {
     };
 
     minidox -> {
-      "5plit";
+      absolem;
       microdox;
-    }
+    };
+
+    model01 -> {
+      absolem;
+    };
 
     sofle -> kimiko;
 
@@ -56,6 +60,9 @@ digraph T {
   }
 
   subgraph unibody {
+    atreus -> {
+      absolem;
+    };
     reviung39 -> {
       ahokore;
       reviung41;
