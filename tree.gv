@@ -35,7 +35,7 @@ digraph T {
 
     ferris -> {
       ahokore;
-      cuttlefish;
+      sepia;
       draculad;
       rollow;
       sweep;
