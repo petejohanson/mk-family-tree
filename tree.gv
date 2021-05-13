@@ -24,6 +24,7 @@ digraph T {
       ergodash,
       gergo,
       iris,
+      minidox,
       moonlander,
       redox
     };
@@ -38,6 +39,10 @@ digraph T {
       sweep,
       zaphod
     };
+
+    minidox -> {
+      "5plit"
+    }
 
     "5plit" -> "fissure1";
     "For Science" -> "fissure1";
