@@ -65,6 +65,7 @@ digraph {
       absolem;
       corne;
       microdox;
+      jklp;
     };
 
     model01 -> {
@@ -83,7 +84,10 @@ digraph {
   subgraph unibody {
     atreus -> {
       absolem;
+      jklp;
     };
+    jklp -> balbuzard;
+    absolem -> balbuzard;
     reviung39 -> {
       ahokore;
       reviung41;
