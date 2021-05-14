@@ -14,13 +14,17 @@ digraph {
       torn;
     };
 
-    lily58 -> sofle;
+    lily58 -> {
+      keyseebee;
+      sofle;
+    };
 
     kyria -> {
         ahokore;
         arch36;
         ferris;
         fifi;
+        keyseebee;
     };
 
     "kinesis advantage" -> {
@@ -46,8 +50,9 @@ digraph {
 
     gergo -> gergoplex;
     gergoplex -> {
-      ferris;
       choc_ergo;
+      ferris;
+      keyseebee;
     };
 
     ferris -> {
@@ -93,6 +98,7 @@ digraph {
   subgraph ortholinear {
     plaid -> {
       discipline;
+      keyseebee;
       torn;
     };
     planck -> {
