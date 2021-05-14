@@ -1,4 +1,6 @@
-digraph T {
+digraph {
+  rankdir=LR;
+  
   subgraph splits {
     helix -> corne;
 
